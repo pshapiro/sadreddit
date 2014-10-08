@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sad Reddit: Find Subreddits Without Moderators by Paul Shapiro</title>
+	<script src="//load.sumome.com/" data-sumo-site-id="d66c59797713d7759efc617542af4287f9a37059de5a4a087bb41ca809336aab" async></script>
+	
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+	<meta name="google-site-verification" content="q6jkYpzb8i-GJCJxbakTXW-jut3dytkHbAhbNE82MMU" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">  
+        <div class="text-center">
+            <h1>Find Subreddits Without Moderators<br /><em>By <a class="name" href="http://searchwilderness.com">Paul Shapiro</a></em></h1>
+            <form action="/search" method="post" class="form-horizontal">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label" for="keyword">Keyword:</label>&nbsp;<input id="keyword" name="keyword" type="text" placeholder="&nbsp;(Experimental)" class="input-xxlarge">
+                    </div>
+
+                    <input type="hidden" name="resType" value="csv">
+		    <input type="hidden" name="page" value="0" id="page-num">
+		  
+                    <div class="control-group">
+                        <p>
+                            <button id="start" class="btn btn-primary">Let's Go!</button>
+                            <button type="submit" class="btn btn-primary">Get results as CSV</button>
+                        </p>
+                    </div>
+                </fieldset>
+            </form> 
+            <div id="output-container"></div>
+        </div>	  
+    </div>
+<!--
+<div class="navbar navbar-default navbar-fixed-bottom">
+<div class="container">
+   <p class="navbar-text pull-left">&copy; 2014 - Site by <a class="name" href="http://searchwilderness.com/">Paul Shapiro</a></p>
+   <a href="https://twitter.com/fighto" class="navbar-btn btn-danger pull-right">
+   <span class="glyphicon glyphicon-user"></span> Follow @fighto on Twitter</a>
+</div>
+</div>-->
+
+    <script src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

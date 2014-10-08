@@ -1,0 +1,29 @@
+body {
+  padding-top: 50px;
+}
+
+button#start {
+  margin: 5px;
+}
+
+input.input-large {
+  margin: 5px;
+}
+
+ul#output {
+    list-style: none;
+    list-style-type: none;
+}
+
+.navbar-btn {
+    margin: 5px;
+    padding: 10px;
+}
+
+a.name {
+    color: #D9534F;
+}
+
+ul.information {
+margin-left: 25%;
+}
